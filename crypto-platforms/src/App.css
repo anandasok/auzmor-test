@@ -1,6 +1,6 @@
 /* Custom CSS*/
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, b, ol, ul, li, form {
     margin: 0;
     padding: 0;
     border: 0;
@@ -36,7 +36,7 @@ a:hover {
     height: 56px;
     background-repeat: no-repeat;
     background-position: 0 50%;
-    background-image: url(/assets/logo-small-4612353cefa78dfe35ba5e8e9d35da9f9305a3a516ef9675b5c37004c5862b6d.png);
+    background-image: url(https://cdn.dribbble.com/assets/logo-small-4612353cefa78dfe35ba5e8e9d35da9f9305a3a516ef9675b5c37004c5862b6d.png);
     -webkit-transition: opacity 0.2s ease;
     -moz-transition: opacity 0.2s ease;
     -o-transition: opacity 0.2s ease;
@@ -76,7 +76,6 @@ a:hover {
 }
 
 #footer-inner h3 {
-    margin-bottom: 5px;
     margin: 2px 0 14px 0;
     font-size: 14px;
     font-weight: 500;
@@ -116,7 +115,6 @@ a:hover {
     padding: 0 0 0 10px;
     border: none;
     z-index: auto;
-    position: relative;
     position: absolute;
 }
 
